@@ -1,0 +1,8 @@
+gsettings set org.cinnamon.desktop.default-applications.terminal exec kitty
+
+and also add this to .profile
+
+export BROWSER=firefox
+export TERM=kitty
+export QT_QPA_PLATFORMTHEME="qt5ct"
+. "$HOME/.cargo/env"
